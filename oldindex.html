@@ -1,0 +1,48 @@
+<html>
+<title> Knuffis Super Barcelonakalender </title>
+<style>
+input[type=text] {
+	width: 6%;
+	padding: 12px;
+	margin: 8px 0;
+	box-sizing: border-bow;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	}
+input[type=text]:focus {
+	background-color: lightblue;
+	}
+
+input[type=submit] {
+	background-color: lightblue;
+	border-radius: 3px;
+	padding: 12px 20px;
+	margin: 4px 2px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000000;
+	}
+	
+body { 
+	background: url(images/bg.jpg) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+	
+
+</style>
+<body>
+
+<center>
+<br><br><br><br>
+<input type="text" maxlength="4" id="glückscode"/>
+<input type="submit" value="Enter" onclick="javascript:location.href='http://thescantrax.github.io/' + getElementById('glückscode').value + '.html' "  />
+</center>
+</body>
+</html>
